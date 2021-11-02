@@ -73,7 +73,7 @@ class AuthBot(commands.Cog):
         else:
             await ctx.send('This command cannot be used in this channel.')
 
-    @commands.command(name='new_token', pass_context=True)
+    @commands.command(name='clear_tokens', pass_context=True)
     @has_permissions(administrator=True)
     async def _clear_tokens(self, ctx):
         self.active_tokens = []

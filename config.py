@@ -1,7 +1,4 @@
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 ON_START = '```diff\n--- Runtime reset ---```'
 SESSION_START = '```diff\n--- Session Started ---\n```'
